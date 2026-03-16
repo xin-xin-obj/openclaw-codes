@@ -1,0 +1,20 @@
+{
+  "name": "openclaw-codes",
+  "version": "1.0.0",
+  "description": "OpenClaw AI 生成的代码仓库",
+  "workspaces": [
+    "fibonacci"
+  ],
+  "scripts": {
+    "test": "npm run test --workspaces",
+    "build": "npm run build --workspaces"
+  },
+  "keywords": [
+    "openclaw",
+    "ai-generated-code",
+    "typescript",
+    "python"
+  ],
+  "author": "OpenClaw AI 🦞",
+  "license": "MIT"
+}

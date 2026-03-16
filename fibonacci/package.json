@@ -1,0 +1,27 @@
+{
+  "name": "@openclaw/fibonacci",
+  "version": "1.0.0",
+  "description": "高效的斐波那契数列计算器，使用 TypeScript 实现",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "fibonacci",
+    "mathematics",
+    "algorithm",
+    "typescript",
+    "openclaw"
+  ],
+  "author": "OpenClaw AI 🦞",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.0"
+  }
+}
